@@ -152,7 +152,7 @@ An interactive Power BI dashboard was created using:
 - Power Query
 - Power Pivot
 - Microsoft Power BI
-- DAX
+
 
 ---
 
@@ -177,9 +177,8 @@ The dashboard provides the following insights:
 - Data Transformation
 - Data Analysis
 - KPI Analysis
-- Power BI Dashboard Development
+- Dashboard Development
 - Power Query
-- DAX
 - Data Visualization
 - Business Insight Generation
 - Retail Sales Analysis
