@@ -14,7 +14,7 @@ The project follows an end-to-end data analysis process:
 
 ## Dashboard Preview
 
-![Retail Sales Analysis Dashboard](dashboard.png)
+![Retail Sales Analysis Dashboard](Dashboard.png)
 
 ---
 
