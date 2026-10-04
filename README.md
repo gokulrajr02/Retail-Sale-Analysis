@@ -1,166 +1,201 @@
-# Apollo Pharmacy Sales Analysis
+# Retail Sales Analysis Dashboard – Apollo Pharmacy
 
 ## Project Overview
 
-This project focuses on analyzing pharmacy retail sales and purchase data to identify sales trends, customer behavior, product performance, purchase patterns, and key business KPIs.
+This project is a Retail Sales Analysis Dashboard created using Microsoft Power BI.
 
-The project follows an end-to-end data analytics process:
+The objective of this project is to analyze pharmacy retail sales, purchase performance, GST, profit, profit margin, monthly sales trends, customer-wise sales, and product performance.
 
-Data Collection → Data Cleaning → Data Transformation → Data Analysis → Dashboard Creation → Business Insights
+The project follows an end-to-end data analysis process:
 
-## Objectives
+**Data Collection → Data Cleaning → Data Transformation → Data Analysis → KPI Creation → Dashboard Development → Business Insights**
 
-- Analyze overall sales performance
-- Identify monthly sales trends
-- Analyze product and category performance
-- Understand purchase patterns
-- Analyze GST and transaction values
-- Identify top-performing products
-- Create business KPIs
-- Present insights through an interactive dashboard
+---
 
-## Dataset
+## Dashboard Preview
 
-The dataset contains pharmacy sales and purchase transactions.
+![Retail Sales Analysis Dashboard](dashboard.png)
 
-### Sales Data
+---
 
-- 42,650 sales records
-- Bill Number
-- Date
-- Customer Name
-- Staff
-- Product Name
-- Category
-- Company
-- Batch Number
-- Expiry Date
-- Quantity
-- MRP
-- Discount
+## Key KPIs
+
+The dashboard provides the following important business KPIs:
+
+- **Total Sales:** 7,151 K
+- **Total Purchase:** 3,595 K
+- **GST Paid:** 411 K
+- **Total Profit:** 3,144 K
+- **Profit Margin:** 43.97%
+
+These KPIs provide a quick overview of the overall business performance.
+
+---
+
+## Dashboard Analysis
+
+### 1. Monthly Sales Trend
+
+The monthly sales trend shows how sales performance changes throughout the year.
+
+The dashboard helps identify:
+
+- High-sales months
+- Low-sales months
+- Monthly fluctuations
+- Overall sales trends
+
+From the dashboard, **July recorded strong sales**, while **February showed a noticeable decline** before sales increased again in March.
+
+---
+
+### 2. Sales by Customer
+
+The donut chart shows the contribution of customers to total sales.
+
+The dashboard provides a customer-level view that helps identify customers contributing significantly to overall sales.
+
+The displayed customers include:
+
+- Arjun
+- Meena
+- Priya
+- Ravi
+
+---
+
+### 3. Quarterly Sales Analysis
+
+Quarterly sales are analyzed to compare performance across four quarters.
+
+| Quarter | Sales |
+|--------|------:|
+| Q1 | 454 K |
+| Q2 | 441 K |
+| Q3 | 425 K |
+| Q4 | 471 K |
+
+**Q4 recorded the highest quarterly sales at 471 K**, while Q3 recorded the lowest at 425 K.
+
+This comparison helps understand seasonal sales performance.
+
+---
+
+### 4. Product Sales Analysis
+
+The product chart compares sales performance across different pharmacy products.
+
+Products analyzed include:
+
+- Amoxicillin 500mg
+- Azithromycin 500mg
+- Calcium + D3
+- Cough Syrup 100ml
+- Salbutamol Inhaler
+
+Among the displayed products, **Salbutamol Inhaler recorded the highest sales at 959 K**.
+
+This analysis helps identify high-performing products and supports better inventory and sales decisions.
+
+---
+
+## Data Analysis Process
+
+### 1. Data Collection
+
+Collected retail sales and purchase transaction data for analysis.
+
+### 2. Data Cleaning
+
+The data was checked and prepared for analysis by:
+
+- Removing duplicate records
+- Handling missing values
+- Correcting data types
+- Standardizing date fields
+- Checking numerical values
+- Preparing clean data for reporting
+
+### 3. Data Transformation
+
+The cleaned data was transformed to create meaningful fields and calculations required for analysis.
+
+### 4. Data Analysis
+
+Sales, purchases, GST, profit, customers, products, and monthly/quarterly performance were analyzed.
+
+### 5. KPI Development
+
+Important business measures were created to monitor:
+
+- Sales
+- Purchase
 - GST
-- GST Amount
-- Net Amount
+- Profit
+- Profit Margin
 
-### Purchase Data
+### 6. Dashboard Development
 
-- 1,093 purchase records
-- GRN Number
-- Date
-- Supplier Name
-- Product Name
-- Category
-- Company
-- HSN Code
-- Batch Number
-- Expiry Date
-- Quantity
-- Purchase Price
-- GST
-- GST Amount
-- Total Amount
+An interactive Power BI dashboard was created using:
 
-## Tools Used
+- KPI Cards
+- Line Chart
+- Donut Chart
+- Bar Charts
+- Slicers/Filters
+
+---
+
+## Tools & Technologies
 
 - Microsoft Excel
 - Power Query
 - Power Pivot
-- DAX
 - Microsoft Power BI
+- DAX
 
-## Data Cleaning
-
-The following data-cleaning activities were performed:
-
-- Removed unnecessary columns
-- Checked duplicate records
-- Checked missing values
-- Corrected data types
-- Standardized date fields
-- Checked numerical values
-- Prepared data for analysis
-- Created calculated measures for KPIs
-
-## Data Analysis
-
-The analysis includes:
-
-- Total Sales
-- Total Purchase
-- Total Quantity Sold
-- GST Analysis
-- Monthly Sales Analysis
-- Product Performance
-- Category Performance
-- Company Performance
-- Customer Analysis
-- Sales Trend Analysis
-
-## Dashboard KPIs
-
-The dashboard includes important KPIs such as:
-
-- Total Sales
-- Total Purchase
-- Total Quantity
-- Total GST
-- Number of Customers
-- Number of Products
-- Average Sales
-
-## Dashboard
-
-The Power BI dashboard provides an interactive view of sales and purchase performance.
-
-Users can analyze the data using filters and visualizations based on:
-
-- Date
-- Category
-- Product
-- Company
-- Customer
-- Staff
+---
 
 ## Key Business Insights
 
-The analysis helps identify:
+The dashboard provides the following insights:
 
-- High-performing products
-- Low-performing products
-- Monthly sales trends
-- High-performing categories
-- Purchase patterns
-- Customer purchasing behavior
-- GST contribution
-- Overall sales performance
+- Overall sales reached **7.15 million**.
+- Total purchase value was approximately **3.60 million**.
+- Total profit was approximately **3.14 million**.
+- Overall profit margin was **43.97%**.
+- Q4 had the highest quarterly sales among the four quarters.
+- Salbutamol Inhaler was the highest-selling product shown in the dashboard.
+- Monthly sales varied throughout the year, with a noticeable decline in February.
+- Customer-level analysis helps identify major contributors to sales.
 
-## Project Workflow
-
-1. Collected the sales and purchase data
-2. Imported the data into Excel/Power BI
-3. Cleaned and transformed the data
-4. Created relationships and calculated measures
-5. Analyzed the data
-6. Created KPIs and visualizations
-7. Developed an interactive dashboard
-8. Generated business insights
+---
 
 ## Skills Demonstrated
 
 - Data Cleaning
 - Data Transformation
 - Data Analysis
-- Excel
-- Power Query
-- Power Pivot
-- DAX
-- Power BI
-- Dashboard Development
 - KPI Analysis
-- Business Insights
+- Power BI Dashboard Development
+- Power Query
+- DAX
+- Data Visualization
+- Business Insight Generation
+- Retail Sales Analysis
+
+---
+
+## Project Outcome
+
+This project demonstrates how raw retail transaction data can be transformed into an interactive business dashboard.
+
+The dashboard helps management quickly understand sales performance, profitability, customer contribution, product performance, and sales trends for better business decision-making.
+
+---
 
 ## Author
 
-Gokulraj R
+**Gokulraj R**
 
 Aspiring Data Analyst
